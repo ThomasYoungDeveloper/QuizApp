@@ -10,6 +10,8 @@ import android.view.View
 import android.widget.*
 import androidx.core.content.ContextCompat
 
+//TODO Fix app always showing correct answer as first option
+
 class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
     private  var mCurrentPosition: Int = 1
